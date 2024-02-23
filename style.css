@@ -40,3 +40,28 @@ html , body{
 #logo-title {
     color: white;
 }
+
+#nav-1 {
+    display:flex;
+    margin-left: 8px;
+    flex-direction: column;
+}
+
+.nav-item{
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    width: auto;
+    align-items: center
+    /* justify-content: center;
+    align-content: center; */
+}
+.icons{
+    margin-right: 20px;
+}
+
+.icon-description{
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
