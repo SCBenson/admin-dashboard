@@ -1,0 +1,42 @@
+html , body{
+    margin: 0;
+}
+/* Setting up the grid layout for the webpage */
+.grid-container {
+    display: grid;
+    grid-template-columns: 15vw 85vw;
+    grid-template-rows: 100vh;
+}
+
+.grid-container > div {
+    background-color: #38bdf8;
+}
+
+.content-container {
+    display: grid;
+    grid-template-columns: 100vw;
+    grid-template-rows: 150px auto;
+}
+
+#header {
+    background-color: white;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+#dash {
+    background-color: #e4e4e7;
+    grid-row: 2/3;
+}
+/*------------------------------------------------*/
+
+#logo {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#logo-title {
+    color: white;
+}
