@@ -41,7 +41,7 @@ html , body{
     color: white;
 }
 
-#nav-1 {
+#nav-1, #nav-2 {
     display:flex;
     margin-left: 8px;
     flex-direction: column;
@@ -53,8 +53,6 @@ html , body{
     height: 50px;
     width: auto;
     align-items: center
-    /* justify-content: center;
-    align-content: center; */
 }
 .icons{
     margin-right: 20px;
@@ -68,4 +66,19 @@ html , body{
 
 .icon-description:hover {
     color: #bae6fd;
+}
+
+#nav-2 {
+    margin-top: 35px;
+}
+
+.avatar {
+    vertical-align: middle;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+  }
+
+#header {
+    display: flex;
 }
